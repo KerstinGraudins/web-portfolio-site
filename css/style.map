@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"\r\nnav{\r\n   float:left;\r\n   padding: 1em;\r\n   background-color: #ACCC4B;\r\n    width:20%;\r\n    ul{\r\n        margin:0;\r\n        padding:0;\r\n        list-style: none;\r\n    }\r\n    a{\r\n        text-decoration: none;\r\n    color:#515E28;\r\n    font-size: 2em;\r\n    }\r\n    a:hover{\r\n        text-decoration: none;\r\n    }\r\n}\r\nheader{\r\n    text-align: center;\r\n    padding: 1em;\r\n    color: #1553B2;\r\n    background-color: #FF7966;\r\n    clear:left;\r\n    h1{\r\n    \r\n    color:#1553B2;\r\n    text-shadow: 2px 2px #4D93FF;\r\n}\r\n}\r\nsection{\r\n    width:80%;\r\n    float:right;\r\n   background-color: #ACCC4B; \r\n    img{\r\n        margin-top: 10px;\r\n    }\r\n}\r\nhtml{\r\n    background-color: #ACCC4B; \r\n}\r\nh1,h2,h3{\r\n    font-family: 'Stardos Stencil', cursive;\r\n}\r\n"
+	],
+	"mappings": ";AACA,AAAA,GAAG,CAAA;EACA,KAAK,EAAC,IAAK;EACX,OAAO,EAAE,GAAI;EACb,gBAAgB,EAAE,OAAQ;EACzB,KAAK,EAAC,GAAI,GAcb;;EAlBD,AAKI,GALD,CAKC,EAAE,CAAA;IACE,MAAM,EAAC,CAAE;IACT,OAAO,EAAC,CAAE;IACV,UAAU,EAAE,IAAK,GACpB;;EATL,AAUI,GAVD,CAUC,CAAC,CAAA;IACG,eAAe,EAAE,IAAK;IAC1B,KAAK,EAAC,OAAQ;IACd,SAAS,EAAE,GAAI,GACd;;EAdL,AAeK,GAfF,CAeC,CAAC,AAAA,MAAM,CAAA;IACH,eAAe,EAAE,IAAK,GACzB;;;AAEL,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,MAAO;EACnB,OAAO,EAAE,GAAI;EACb,KAAK,EAAE,OAAQ;EACf,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAC,IAAK,GAMd;;EAXD,AAMI,MANE,CAMF,EAAE,CAAA;IAEF,KAAK,EAAC,OAAQ;IACd,WAAW,EAAE,eAAgB,GAChC;;;AAED,AAAA,OAAO,CAAA;EACH,KAAK,EAAC,GAAI;EACV,KAAK,EAAC,KAAM;EACb,gBAAgB,EAAE,OAAQ,GAI5B;;EAPD,AAII,OAJG,CAIH,GAAG,CAAA;IACC,UAAU,EAAE,IAAK,GACpB;;;AAEL,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,OAAQ,GAC7B;;;AACD,AAAA,EAAE,EAAC,AAAA,EAAE,EAAC,AAAA,EAAE,CAAA;EACJ,WAAW,EAAE,0BAA2B,GAC3C",
+	"names": []
+}

@@ -1,0 +1,70 @@
+/* line 1, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+/*mobile first*/
+/*main container*/
+/* line 9, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+.main-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1.67%;
+  margin: auto; }
+
+/*Flexbox container*/
+/* line 16, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+.flex-container {
+  margin-bottom: 10px;
+  /*removes margin from last container*/ }
+  /* line 19, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+  .flex-container:last-of-type {
+    margin-bottom: 0; }
+  @media (min-width: 40em) {
+    /* line 16, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+    .flex-container {
+      display: flex; } }
+
+/*DIVs inside the flex container*/
+/* line 27, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+[class*="level-"] {
+  width: 100%; }
+  @media (min-width: 40em) {
+    /* line 27, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+    [class*="level-"] {
+      margin: 0 .83%; } }
+  /* line 32, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+  [class*="level-"]:first-of-type {
+    margin-left: 0; }
+  /* line 33, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+  [class*="level-"]:last-of-type {
+    margin-right: 0; }
+
+/*NAV*/
+/* line 36, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+nav {
+  width: 100%; }
+  @media (min-width: 40em) {
+    /* line 36, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+    nav {
+      width: 33%;
+      margin-right: 1.67%; } }
+
+/*CONTENT AREA*/
+/* line 44, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+section {
+  width: 100%; }
+  @media (min-width: 40em) {
+    /* line 44, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+    section {
+      width: 65.33%; } }
+
+/*DIFFERENT WIDTH CONTAINERS*/
+@media (min-width: 40em) {
+  /* line 53, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+  .content-a {
+    width: 30%; }
+  /* line 54, C:/Users/kerstin/Desktop/webPortfolio/scss/media.scss */
+  .content-c {
+    width: 42%; } }
+
+/*# sourceMappingURL=../css/media.map */
