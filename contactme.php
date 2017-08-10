@@ -20,7 +20,7 @@
  </head>   
  <body>
   <Header>
-     <a href="https://www.linkedin.com/in/kerstin-graudins-40947213b/"><i class="fa fa-linkedin-square" style="font-size: 48px;" aria-hidden="true"></i></a> 
+   <a href="https://www.linkedin.com/in/kerstin-graudins-40947213b/"><i class="fa fa-linkedin-square" style="font-size: 48px;" aria-hidden="true"></i></a> 
       <h1>Kerstin Graudins</h1><br>
       <h2>Creative Web Designer/Developer</h2>
   </Header>
@@ -33,9 +33,8 @@
       </ul>
   </nav>
   <section>
-      
-    <a href="ades site/index.html" target="_blank">Ade'Connere artist site</a>
-    <li><a href="fp/index.php" target="_blank">Bekah Johnson Audio.com</a></li> 
+      <?php include ("includes/simple.php");?>
+   
   </section>
    
  </body>   

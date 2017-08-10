@@ -1,0 +1,68 @@
+/* line 2, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+nav {
+  float: left;
+  padding: 2em;
+  background-color: #ACCC4B;
+  
+}
+
+/* line 7, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 12, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+nav a {
+  text-decoration: none;
+  color: #515E28;
+  font-size: 2em;
+}
+
+/* line 17, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+nav a:hover {
+  text-decoration: none;
+}
+
+/* line 21, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+header {
+  text-align: center;
+  padding: 1em;
+  color: #1553B2;
+  background-color: #FF7966;
+  clear: left;
+}
+
+/* line 27, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+header h1 {
+  color: #1553B2;
+  text-shadow: 2px 2px #4D93FF;
+}
+header a{
+    padding:2em;
+    float:left;
+}
+/* line 33, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+section {
+ 
+  float: left;
+  background-color: #ACCC4B;
+}
+
+/* line 37, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+section img {
+  margin-top: 10px;
+}
+
+/* line 41, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+html {
+  background-color: #ACCC4B;
+}
+
+/* line 44, C:/Users/kerstin/Desktop/webPortfolio/scss/style.scss */
+h1, h2, h3 {
+  font-family: 'Stardos Stencil', cursive;
+}
+
+/*# sourceMappingURL=../css/style.map */
